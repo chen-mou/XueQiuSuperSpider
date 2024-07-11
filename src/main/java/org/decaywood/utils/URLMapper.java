@@ -38,7 +38,7 @@ public enum URLMapper {
     }
 
     private String URL;
-
+    private String temp;
     @Override
     public String toString() {
         return URL;
