@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>decaywood</groupId>
-    <artifactId>XueQiuSpider</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>chen-mou</groupId>
+    <artifactId>xueqiu-spider</artifactId>
+    <version>1.0.0</version>
 
     <properties>
         <maven.compiler.plugin.version>2.5.1</maven.compiler.plugin.version>
@@ -67,5 +67,13 @@
         </dependency>
 
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>github packages</name>
+            <url>https://maven.pkg.github.com/chen-mou/repository</url>
+        </repository>
+    </distributionManagement>
 
 </project>
